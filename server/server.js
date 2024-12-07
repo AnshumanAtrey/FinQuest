@@ -113,5 +113,5 @@ app.get("/api/checkUser/:clerkId", async (req, res) => {
 const clerkApiKey = process.env.CLERK_API_KEY; // Use the secret key in your backend
 
 app.listen(PORT, () => {
-  console.log(`Server is running on http://localhost:${PORT}`);
+  console.log(`Server is running on https://finquest.onrender.com:${PORT}`);
 });
